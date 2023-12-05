@@ -3,20 +3,36 @@ html {
 }
 
 body {
-    height:100%;
-    display:-webkit-box;
-    display:-moz-box;
-    display:-ms-flexbox;
-    display:-webkit-flex;
-    display:flex;
-    flex-direction:column
+    height:100%; 
+    width:100%;
+}
+
+header {
+    position:absolute; 
+    top:0px; 
+    left:0px; 
+    height:60px; 
+    right:0px;
+    overflow:hidden;
 }
 
 main {
-    -ms-flex:1 1 auto;
-    flex:1 1 auto
+    position:absolute; 
+    top:60px; 
+    bottom:60px; 
+    left:0px; 
+    right:0px; 
+    overflow:auto;
 }
 
+footer {
+    position:absolute; 
+    bottom:0px; 
+    height:60px; 
+    left:0px; 
+    right:0px; 
+    overflow:hidden;
+}
 
 ul {
     list-style-type: none;
