@@ -42,13 +42,9 @@ ul {
     background-color: #333;    
 }
 
-
-
 li {
     float: left;
 }
-
-  
 
 li a {
     display: block;
@@ -74,53 +70,6 @@ li a:hover {
     width: 80%;
 }
 
-.Card {
-    text-decoration: none;
-    color: black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    text-align: center;
-    display: grid;
-    grid-template-columns: 20% 80%; 
-    grid-template-rows: 45px 20px 20px 80px;
-    gap: 0px 0px;
-    grid-template-areas: 
-     "card_image cardtoptitle"
-     "card_image cardtopsubtitle"
-     "card_image cardtaglist"
-     "card_image cardsummary"; 
-}
-
-.card_image {
-    grid-area: card_image;
-}
-
-.cardtoptitle {
-    font-size: 18px;
-    grid-area: cardtoptitle;
-}
-
-.cardtopsubtitle {
-    font-size: 12px;
-    grid-area: cardtopsubtitle;
-}
-
-.cardsummary {
-   grid-area: cardsummary;
-}
-
-.cardtaglist { 
-   grid-area: cardtaglist;
-//   float: right;
-}
-
-.card_img {
-  width: 100%;
-  max-height: 300px;
-  border-radius: var(--border-radius-primary);
-  object-fit: cover;
-}
-
-
 .btn {
   background-color: cornflowerblue;
   border: none;
@@ -132,8 +81,6 @@ li a:hover {
   font-size: 10px;
   border-radius: 12px;
 }
-
-
 
 .btn:hover {
   border-left: 8px solid black;
@@ -148,8 +95,6 @@ li a:hover {
     padding: 14px 16px;
     float: right;
 }
-
-
 
 .company {
     display: block;
