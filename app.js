@@ -3,6 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const app = express();
 
+const matter = require('gray-matter');
 
 
 
@@ -28,8 +29,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.get("/", (req, res) => {
+    const content = fs.readFileSync('./blog/' + req.params.article + '.md', "utf-8");
+    const result = matter(content);
     res.render("home", {
-       title: "Home"  
+       title: "Home",  
+       posts: result
      });
    });
 
