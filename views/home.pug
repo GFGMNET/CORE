@@ -1,11 +1,12 @@
 extends layout
 block append main
- #el_card 
-  el-card.box-card 
-   span 
-    | Notification 
-   h3 
-    | Maintanace Mode
+ each post, i in posts
+  #el_card 
+   el-card.box-card 
+    span 
+     | #{post.frontmatter.title}
+    h3 
+     | Maintanace Mode
 
 
 
