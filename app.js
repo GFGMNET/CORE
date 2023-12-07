@@ -30,13 +30,24 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.get("/", (req, res) => {
-    const content = fs.readFileSync('./blog/' + req.params.article + '.md', "utf-8");
-    const result = matter(content);
-    res.render("home", {
-       title: "Home",  
-       posts: result
+    const blogposts = fs.readdirSync(__dirname + '/blog').filter(file => file.endsWith('.md'));
+    const posts = blogposts.map((fileName) => {
+      const slug = fileName.replace('.md', '');
+      const readFile = fs.readFileSync(`blog/${fileName}`, 'utf-8');
+      const { data: frontmatter } = matter(readFile);
+      return {
+        slug,
+        frontmatter,
+      };
+    })
+    console.log(posts);
+     res.render("home", {
+       title: "Home" ,
+       posts: posts
      });
-   });
+  
+  });
+  
 
 app.listen('80', () => {
     console.log('Server Started on port');

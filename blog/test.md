@@ -1,5 +1,5 @@
 ---
-title: Nuxt Content Blog
+title: Notification
 summary: Lorem ipsum dolor sit amet, consectetur...
 img: 07152022.png
 tags:
