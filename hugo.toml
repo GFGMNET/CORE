@@ -1,0 +1,4 @@
+baseURL = 'https://www.gfgm.net'
+languageCode = 'en-us'
+title = 'GFGM'
+theme ='Hugo-Octopress'
