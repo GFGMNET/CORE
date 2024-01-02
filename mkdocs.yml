@@ -2,7 +2,8 @@ site_name: GFGM
 site_url: https://www.gfgm.de/
 nav:
   - Home: index.md
-  - About: about.md
+  - About: 
+    - 'Privacy': 'privacy.md'
 theme:
   name: 'windmill'
 
