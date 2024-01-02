@@ -10,5 +10,5 @@ plugins:
   - search
   - mermaid2
   - mkpdfs:
-      -  company: GFGM
-      -  author: AG
+        - company: GFGN
+        - author: AG
