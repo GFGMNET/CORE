@@ -9,6 +9,3 @@ theme:
 plugins:
   - search
   - mermaid2
-  - mkpdfs:
-        - company: GFGN
-        - author: AG
