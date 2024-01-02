@@ -4,8 +4,8 @@ nav:
   - Home: index.md
   - About: about.md
 theme:
-  name: 'windmill'
+  name: 'readthedocs'
 
 plugins:
   - search
-  - mermaid2
+  
