@@ -1,6 +1,3 @@
-## Über Uns
-
-
 ## Privacy Policy
 
 Last updated: January 02, 2024
