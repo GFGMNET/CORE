@@ -3,5 +3,3 @@ site_url: https://www.gfgm.de/
 nav:
   - Home: index.md
   - About: about.md
-theme:
-  name: 'windmill'
