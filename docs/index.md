@@ -6,5 +6,8 @@ exclude_from_blog: true
 
 ## Blogs
 
+## Tags
+Following is a list of relevant tags:
 
+<!-- material/tags -->
 
