@@ -16,9 +16,11 @@ plugins:
       dirs: 
         - guides
       paging: true
-     time_format: '%d/%m/%y %H:%M:%S'
-     meta_time_format: '%Y-%m-%d %H:%M:%S'
-  - tags
+      time_format: '%d/%m/%y %H:%M:%S'
+      meta_time_format: '%Y-%m-%d %H:%M:%S'
+      features:
+        tages:
+          insert: top
   - rss:
       match_path: docs/guides/.* 
       date_from_meta:
