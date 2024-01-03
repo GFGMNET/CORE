@@ -5,7 +5,7 @@ nav:
   - About: 
     - 'Privacy': 'privacy.md'
 theme:
-  name: 'windmill'
+  name: 'material'
 
 plugins:
   - search
