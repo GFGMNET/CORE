@@ -4,6 +4,10 @@ description: Nullam urna elit, malesuada eget finibus ut, ac tortor.
 tags:
  - network
 author: ag
+date: 2023-01-01
+readtime: 15
+categories:
+ - Network
 ---
 
 

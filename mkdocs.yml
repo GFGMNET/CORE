@@ -12,15 +12,20 @@ plugins:
   - mermaid2
   - mkdocs-video
   - awesome-pages
-  - blogging:
-      dirs: 
-        - guides
+  - blog:
+      blog_dir: guides
       paging: true
-      time_format: '%d/%m/%y %H:%M:%S'
-      meta_time_format: '%Y-%m-%d %H:%M:%S'
-      features:
-        tags:
-          insert: top
+      blog_toc: true
+      post_url_date_format: yyyy/MM/dd
+      archive_name: Archive
+      archive_date_format: yyyy
+      archive_url_date_format: yyyy
+      archive_pagination_per_page: 10
+      archive_url_format: "archive/{date}"
+      categories: true
+      categories_name: Categories
+      categories_url_format: "category/{slug}"
+      draft_if_future_date: true
   - tags
   - privacy
   - rss:
@@ -30,7 +35,7 @@ plugins:
       categories:
         - categories
         - tags 
-  - material/social
+  - social
 
 markdown_extensions:
   - markdown.extensions.admonition
