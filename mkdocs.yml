@@ -15,9 +15,8 @@ plugins:
   - blogging:
       dirs: 
         - guides
-      paging: false  
+      paging: true
   - tags
-  - social
   - rss:
       match_path: docs/guides/.* 
       date_from_meta:
