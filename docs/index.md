@@ -11,4 +11,13 @@ exclude_from_blog: true
 
 ## Tags
 
-{{ tag_content }}
+### Contents grouped by tag
+
+{% for tag, pages in tags %}
+
+### <span class="tag">{{tag}}</span>
+{%  for page in pages %}
+  * [{{page.title}}]({{page.filename}})
+{% endfor %}
+
+{% endfor %}

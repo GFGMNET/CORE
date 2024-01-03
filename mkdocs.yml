@@ -19,8 +19,9 @@ plugins:
       time_format: '%d/%m/%y %H:%M:%S'
       meta_time_format: '%Y-%m-%d %H:%M:%S'
       features:
-        tages:
+        tags:
           insert: top
+  - tags
   - rss:
       match_path: docs/guides/.* 
       date_from_meta:
@@ -28,7 +29,8 @@ plugins:
       categories:
         - categories
         - tags 
-
+  - material/social
+  
 markdown_extensions:
   - admonition
   - pymdownx.highlight
