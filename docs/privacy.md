@@ -1,3 +1,6 @@
+---
+exclude_from_blog: true
+---
 ## Privacy Policy
 
 Last updated: January 02, 2024

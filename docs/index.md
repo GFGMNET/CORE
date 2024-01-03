@@ -1,6 +1,14 @@
+---
+exclude_from_blog: true
+---
+
 # Willkommen
+
+## Blogs
+
+{{ blog_content }}
 
 
 ## Tags
 
-<!-- material/tags -->
+{{ tag_content }}
