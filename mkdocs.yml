@@ -11,3 +11,4 @@ plugins:
   - search
   - mermaid2
   - mkdocs-video
+  - tags
