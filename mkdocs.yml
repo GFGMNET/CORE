@@ -12,9 +12,10 @@ plugins:
   - mermaid2
   - mkdocs-video
   - awesome-pages
-  - blog:
-      blog_toc: true
-      post_url_date_format: yyyy/MM/dd
+  - blogging:
+      dirs: 
+        - guides
+      paging: false  
   - tags
   - social
   - rss:
