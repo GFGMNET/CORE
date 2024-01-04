@@ -1,6 +1,6 @@
 ---
-title: Update Cisco Swtich
-description: Update Cisco Swtich
+title: Automation of Switches
+description: Update config on Switches via Ansible
 tags:
  - network
  - cisco
