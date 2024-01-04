@@ -1,1 +1,1 @@
- mkdocs serve --livereload --dev-addr 0.0.0.0:8000
+ mkdocs serve --livereload

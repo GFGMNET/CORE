@@ -1,9 +1,6 @@
 ---
 exclude_from_blog: true
 ---
-
-# Willkommen
-
-## Blogs
+# Blogs
 {{ blog_content }}
 
