@@ -92,15 +92,15 @@ plugins:
           - '*/exclude/*'
         regex:
           - '.*\[exclude\].*'
-  # - pdf-with-js:
-        # enable: false # should enable only when need PDF files
-        # add_download_button: false
-        # display_header_footer: true
-        # header_template: >-
+   - pdf-with-js:
+         enable: true # should enable only when need PDF files
+         add_download_button: false
+         display_header_footer: true
+         header_template: >-
             # <div style="font-size:8px; margin:auto; color:lightgray;">
                 # <span class="title"></span>
             # </div>
-        # footer_template: >-
+         footer_template: >-
             # <div style="font-size:8px; margin:auto; color:lightgray;">
                 # Page <span class="pageNumber"></span> of 
                 # <span class="totalPages"></span>
@@ -169,7 +169,7 @@ markdown_extensions:
   #
   - markdown_captions # add caption to figures
   - customblocks # use ::: to create a new <div>
-  - cell_row_span # merge cells in a table
+  #- cell_row_span # merge cells in a table
   # - kbdextension # syntax [[ctrl]][[c]] does not look clear in MD document
 
 #
@@ -177,33 +177,26 @@ markdown_extensions:
 #
 extra:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/
-  analytics:
-    provider: google
-    property: G-144Q0VJMBT
-    # property: UA-42618265-2
   
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#cookie-consent
-  consent:
     title: Cookie consent
-    description: >-
+    description: >- 
       We use cookies to recognize your repeated visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
-  
-  disqus: "vuquangtrong-github-io"
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: true
+    actions:
+    - accept
+    - manage  
+
   
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/vuquangtrong
-      name: vuquangtrong
-    - icon: fontawesome/brands/facebook-f
-      link: https://facebook.com/trongvq
-      name: trongvq
-    - icon: fontawesome/brands/linkedin-in
-      link: https://www.linkedin.com/in/vqtrong
-      name: vqtrong
+
+    
   generator: false # hide the line "Made with Material for MkDocs"
 
 #
