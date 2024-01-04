@@ -92,7 +92,7 @@ plugins:
           - '*/exclude/*'
         regex:
           - '.*\[exclude\].*'
-   - pdf-with-js:
+  - pdf-with-js:
          enable: true # should enable only when need PDF files
          add_download_button: false
          display_header_footer: true
