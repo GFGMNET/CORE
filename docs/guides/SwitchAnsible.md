@@ -14,7 +14,7 @@ categories:
 
 ## Requirements
  - Python
-   - for windows add Python install path to system variable
+   * for windows add Python install path to system variable
 
 ## Install
 > pip install ansible
