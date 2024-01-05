@@ -40,8 +40,11 @@ plugins:
         - tags 
   - social
 
-
-
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums_style: pymdownx-inline
+  - attr_list
+  - def_list
 extra:
   consent:
     title: Cookie consent
