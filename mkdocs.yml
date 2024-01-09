@@ -9,7 +9,7 @@ theme:
   name: 'material'
   features:
     - navigation.indexes
-  #custom_dir: overrides
+  custom_dir: overrides
   palette:
     - primary: red
       accent: blue
