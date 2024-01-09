@@ -34,7 +34,8 @@ plugins:
      blog_dir: .
      blog_toc: true
      authors_profiles: true
-  - tags
+  - tags:
+     tages_file: tags.md   
   - privacy
   - social
 

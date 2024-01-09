@@ -1,11 +1,11 @@
 ---
 title: Automation of Cisco Switches and Vyos Routers
-description: Update config on Switches via Ansible
+
 tags:
  - network
  - cisco
  - vyos
-author: ag
+author: agaertne
 date: 2024-01-04
 readtime: 15
 categories:
