@@ -1,19 +1,16 @@
 ---
 title: Generall Network Stuff
+description: Generall Network Stuff for Cisco Switches
 tags:
  - network
 author: 
  - agaertne
 date: 2024-01-05 11:00:00
 categories:
-  - Hello
-readtime: 10
+  - Network
+  - Cisco
+readtime: 15
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.
-
-<!-- more -->
 
 
 ## Find Switchport of an Device
