@@ -2,6 +2,7 @@ site_name: GFGM
 site_url: https://www.gfgm.de/
 nav:
   - Home: index.md
+  - Tags: tags.md
   - About: 
     - 'Privacy': 'privacy.md'
 theme:
@@ -17,18 +18,10 @@ plugins:
   - mermaid2
   - mkdocs-video
   - awesome-pages
-  - blogging:
-      dirs: 
-       - guides
-      features:
-        tags: {}
-      paging: true
-      sort:
-        from: new
-      size: 10
-      locale: en         # The locale for time localizations, default: system's locale
-      time_format: '%Y-%m-%d %H:%M:%S' # The format used to display the time
-      meta_time_format: '%Y-%m-%d %H:%M:%S' # The format used to parse the time from meta
+  - blog:
+     blog_dir: blog
+     blog_toc: true
+     authors_profiles: true
   - tags
   - privacy
   - rss:
@@ -61,5 +54,8 @@ extra:
     - accept
     - manage
     generator: false # hide the line "Made with Material for MkDocs"
+extra_css:
+ - stylesheets/extra.css
 
 copyright: Copyright &copy; 2024 GFGM
+
