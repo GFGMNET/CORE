@@ -12,6 +12,7 @@ categories:
  - Network
  - Cisco
  - VYOS
+social:
 ---
 Automate Cisco and VYOS enviornment
 <!-- more -->
