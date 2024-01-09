@@ -13,6 +13,8 @@ categories:
  - Cisco
  - VYOS
 social:
+ cards_layout: default
+
 ---
 Automate Cisco and VYOS enviornment
 <!-- more -->
