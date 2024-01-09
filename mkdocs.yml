@@ -7,6 +7,8 @@ nav:
     - 'Privacy': 'privacy.md'
 theme:
   name: 'material'
+  features:
+    - navigation.indexes
   #custom_dir: overrides
   palette:
     - primary: red
@@ -29,18 +31,11 @@ plugins:
   - mkdocs-video
   - awesome-pages
   - blog:
-     blog_dir: blog
+     blog_dir: .
      blog_toc: true
      authors_profiles: true
   - tags
   - privacy
-  - rss:
-      match_path: docs/guides/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags 
   - social
 
 markdown_extensions:
