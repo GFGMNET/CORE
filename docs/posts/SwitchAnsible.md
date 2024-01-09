@@ -10,7 +10,11 @@ date: 2024-01-04
 readtime: 15
 categories:
  - Network
+ - Cisco
+ - VYOS
 ---
+Automate Cisco and VYOS enviornment
+<!-- more -->
 
 ## Requirements
  - Python
