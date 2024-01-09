@@ -9,8 +9,18 @@ theme:
   name: 'material'
   #custom_dir: overrides
   palette:
-    primary: white
-    accent: deep blue
+    - primary: red
+      accent: blue
+      scheme: default
+      toggle:
+       icon: material/weather-night
+       name: Switch to dark mode    
+    - primary: black
+      accent: red
+      scheme: slate
+      toggle:
+       icon: material/brightness-7
+       name: Switch to light mode
 
 
 plugins:
