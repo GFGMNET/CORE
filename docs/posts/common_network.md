@@ -11,7 +11,9 @@ categories:
   - Cisco
 readtime: 15
 ---
+Generall Network Stuff see commen Commands for daily Work with Cisco Switches and Windows Clients
 
+<!-- more -->
 
 ## Find Switchport of an Device
 
