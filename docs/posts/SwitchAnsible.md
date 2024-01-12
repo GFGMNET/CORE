@@ -5,15 +5,16 @@ tags:
  - network
  - cisco
  - vyos
-author: agaertne
+author: 
+ - agaertne
 date: 2024-01-04
 readtime: 15
 categories:
  - Network
  - Cisco
  - VYOS
-social:
- cards_layout: entry
+links:
+  - plugins/search.md
 
 ---
 Automate Cisco and VYOS enviornment
