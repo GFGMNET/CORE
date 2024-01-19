@@ -1,0 +1,26 @@
+<!-- Post content -->
+<div class="md-post__content md-typeset">
+    {% if post.meta.title %}
+    <h2>{{ post.meta.title }}</h2>
+    {% endif %}
+        {% if post.meta.cover_image %}
+        <!-- 
+        Replace /image/path with your own values. 
+        For example, if all blog images are in the format blog/images/post-title/image.png, 
+        and you set cover_image to post-title/image.png, 
+        the full image source is /blog/images/{{ post.meta.cover_image }}. 
+        -->
+              <img src="{{ post.meta.cover_image }}" alt="Cover image">
+          {% endif %}
+      {{ post.content }}
+    
+      <!-- Continue reading link -->
+      <nav class="md-post__action">
+        <a href="{{ post.url | url }}">
+          {{ lang.t("blog.continue") }}
+  
+      </a>
+  
+    </nav>
+  
+  </div>

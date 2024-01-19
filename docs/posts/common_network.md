@@ -10,6 +10,7 @@ categories:
   - Network
   - Cisco
 readtime: 15
+cover_image: common_network_Coverimage.PNG
 ---
 Generall Network Stuff see commen Commands for daily Work with Cisco Switches and Windows Clients
 
@@ -361,7 +362,28 @@ boot system flash:name
 
 replace name with the name of the file
 
+### Set MTU
 
+start cmd as admin
 
+```cli
+netsh interface ipv4 show subinterfaces
+```
 
+look for the correct interface name
+```cli
+netsh interface ipv4 set subinterface <subinterface name> mtu=1330 store=persistent
+```
 
+### No internet
+start powershell as admin
+```powershell
+Set-NetAdapterAdvancedProperty * -RegistryKeyword "*IPChecksumOffloadIPv4" -RegistryValue 0
+
+Set-NetAdapterAdvancedProperty * -RegistryKeyword "WaitAutoNegComplete" -RegistryValue 0
+```
+
+start cmd as admin
+```cli
+netsh winsock reset
+```

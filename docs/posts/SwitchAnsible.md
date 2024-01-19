@@ -15,7 +15,7 @@ categories:
  - VYOS
 links:
   - plugins/search.md
-
+cover_image: SwitchAnsible_Coverimage.PNG
 ---
 Automate Cisco and VYOS enviornment
 <!-- more -->
@@ -26,9 +26,7 @@ Automate Cisco and VYOS enviornment
 
 ## Install
 > pip install ansible
-
 > ansible-galaxy collection install cisco.ios
-
 > ansible-galaxy collection install vyos.vyos
 
 ## Playbook

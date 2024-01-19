@@ -2,14 +2,14 @@ site_name: GFGM
 site_url: https://www.gfgm.de/
 nav:
   - Home: index.md
-  - Tags: tags.md
+  
   - About: 
     - 'Privacy': 'privacy.md'
 theme:
   name: 'material'
   features:
     - navigation.indexes
-  #custom_dir: overrides
+  custom_dir: overrides
   palette:
     - primary: red
       accent: blue
@@ -37,7 +37,6 @@ plugins:
      authors_file: "{blog}/.authors.yml"
      pagination_per_page: 5
   - tags:
-     tages_file: tags.md   
   - privacy
   - social
 
