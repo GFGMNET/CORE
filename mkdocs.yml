@@ -9,7 +9,7 @@ theme:
   name: 'material'
   features:
     - navigation.indexes
-  custom_dir: overrides
+  #custom_dir: overrides
   palette:
     - primary: red
       accent: blue
@@ -33,8 +33,8 @@ plugins:
   - blog:
      blog_dir: .
      blog_toc: true
-     authors_profiles: true
-     authors_file: "{blog}/.authors.yml"
+     #authors_profiles: true
+     #authors_file: "{blog}/.authors.yml"
      pagination_per_page: 5
   - tags:
   - privacy
