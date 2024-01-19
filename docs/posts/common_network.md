@@ -362,7 +362,7 @@ boot system flash:name
 
 replace name with the name of the file
 
-### Set MTU
+## Set MTU
 
 start cmd as admin
 
@@ -375,7 +375,7 @@ look for the correct interface name
 netsh interface ipv4 set subinterface <subinterface name> mtu=1330 store=persistent
 ```
 
-### No internet
+## No internet
 start powershell as admin
 ```powershell
 Set-NetAdapterAdvancedProperty * -RegistryKeyword "*IPChecksumOffloadIPv4" -RegistryValue 0
