@@ -32,8 +32,8 @@ plugins:
   - blog:
      blog_dir: .
      blog_toc: true
-     #authors_profiles: true
-     #authors_file: "{blog}/.authors.yml"
+     authors_profiles: true
+     authors_file: "{blog}/.authors.yml"
      pagination_per_page: 5
   - tags:
   - privacy
