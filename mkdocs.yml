@@ -27,7 +27,6 @@ theme:
 
 plugins:
   - search
-  - mermaid2
   - mkdocs-video
   - awesome-pages
   - blog:
